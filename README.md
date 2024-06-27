@@ -2,6 +2,10 @@
 
 This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog in Vivado. The ALU supports five operations: unsigned addition, unsigned subtraction, bitwise NOT (for the B input), bitwise OR, and bitwise AND operations.
 
+## Sketch
+![Image](ALUv1.png)
+
+
 ## Features
 
 - **Operations Supported:**
@@ -39,4 +43,4 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog in Viv
 
 ## License
 
-This project is licensed under the GNU GPL v3 - see the [LICENSE] file for details.
+This project is licensed under the GNU GPL v3 - see the [LICENSE](LICENSE) file for details.
