@@ -18,23 +18,6 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog in Viv
 - **Overflow Handling:** 
   - The ALU sets an overflow flag when the result of an addition or subtraction operation exceeds the 4-bit limit.
 
-## Directory Structure
-├── ALUv1
-│   ├── ALUv1.xpr       // Vivado project file
-│   └── ALUv1.srcs      // Source folder containing design sources
-│       ├── sim_1       // Simulation folder
-│       │   └── new     // New folder for simulation setup
-│       │       └── ALU_TOP_tb   // Testbench for the ALU design
-│       └── sources_1   // Sources folder
-│           └── new     // New folder for design sources
-│               ├── ALU_AddCore   // Module for addition
-│               ├── ALU_LogicCore // Module for logic operations (NOT, OR, AND)
-│               ├── ALU_SubCore   // Module for subtraction
-│               └── ALU_TOP       // Top module handling operation switching
-├── LICENSE             // License details
-└── README.md           // This readme file
-
-
 ## Simulation
 
    - Simulate the ALU functionality using the provided `ALU_TOP_tb`.
