@@ -1,0 +1,49 @@
+5 modes
+
+First test if all 5 modes switch correctly and give proper output.
+Test values
+a = 1000 #8
+b = 0111 #7
+
+Test results
+OpCode000
+r = 0001
+OVFlag = 0
+
+OpCode001
+r = 1111
+OVFlag = 0
+
+OpCode010
+r = 1000
+OVFlag = x
+
+OpCode011
+r = 1111
+OVFlag = x
+
+OpCode100
+r = 0000
+OVFlag = x
+
+Second test if overflow works (addition)
+Test Values
+a = 1010 #10
+b = 1100 #12
+
+OpCode001
+r = 0110 #6 
+OVFlag = 1
+
+Second test if overflow works (subtraction)
+Test Values
+a = 1010 #10
+b = 1100 #12
+
+OpCode000
+r = 1110 #14
+OVFlag = 1
+
+
+
+ 
